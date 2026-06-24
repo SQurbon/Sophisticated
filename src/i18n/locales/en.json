@@ -1,0 +1,10 @@
+{
+  "nav": {
+    "home": "Home",
+    "about": "About",
+    "gallery": "Gallery",
+    "courses": "Courses",
+    "contact": "Contact",
+    "explore": "Explore Now"
+  }
+}
