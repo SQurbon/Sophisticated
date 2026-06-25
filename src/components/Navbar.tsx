@@ -1,9 +1,9 @@
 import { useTranslation } from "react-i18next";
-
+import React from "react";
 export default function Navbar() {
   const { t, i18n } = useTranslation();
 
-  const changeLang = (e) => {
+  const changeLang = (e: React.ChangeEvent<HTMLSelectElement> ) => {
     i18n.changeLanguage(e.target.value);
     localStorage.setItem("lang", e.target.value);
   };
