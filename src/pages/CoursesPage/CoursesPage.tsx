@@ -1,88 +1,89 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 
 const COURSES = [
   {
     level: "Beginner",
-    badge: "Boshlang'ich",
+    badgeKey: "courses.levels.beginner",
     title: "Naskh Script",
     subtitle: "The Foundation of Arabic Writing",
     duration: "8 weeks",
     sessions: "2x per week",
     lang: "Arabic & English",
-    desc: "The most widely used script in the Arab world. Learn the foundational letterforms, proportions, and ink techniques used by scribes for centuries.",
+    descKey: "courses.cards.0.desc",
     color: "#1A5C3A",
   },
   {
     level: "Intermediate",
-    badge: "O'rta",
+    badgeKey: "courses.levels.intermediate",
     title: "Thuluth Script",
     subtitle: "The Script of Grandeur",
     duration: "10 weeks",
     sessions: "2x per week",
     lang: "Arabic & English",
-    desc: "One of the most majestic scripts in Islamic art. Master the sweeping curves and architectural proportions that adorn mosques and manuscripts worldwide.",
+    descKey: "courses.cards.1.desc",
     color: "#0D4A2F",
   },
   {
     level: "Intermediate",
-    badge: "O'rta",
+    badgeKey: "courses.levels.intermediate",
     title: "Diwani Script",
     subtitle: "The Ottoman Court Style",
     duration: "10 weeks",
     sessions: "2x per week",
     lang: "Arabic & English",
-    desc: "Developed in the Ottoman imperial court, Diwani is celebrated for its flowing, ornate style. A script of elegance and prestige.",
+    descKey: "courses.cards.2.desc",
     color: "#0D4A2F",
   },
   {
     level: "Advanced",
-    badge: "Ilg'or",
+    badgeKey: "courses.levels.advanced",
     title: "Kufic Script",
     subtitle: "The Oldest Arabic Script",
     duration: "12 weeks",
     sessions: "3x per week",
     lang: "Arabic",
-    desc: "The earliest Arabic script — angular, geometric, and deeply spiritual. Study the ancient forms found in the oldest copies of the Quran.",
+    descKey: "courses.cards.3.desc",
     color: "#0D2B1F",
   },
   {
     level: "Advanced",
-    badge: "Ilg'or",
+    badgeKey: "courses.levels.advanced",
     title: "Riq'a Script",
     subtitle: "Speed and Simplicity",
     duration: "8 weeks",
     sessions: "2x per week",
     lang: "Arabic & English",
-    desc: "The everyday script of the Arab world — fast, clear, and elegant. Learn the cursive style used in daily handwriting across the Arab world.",
+    descKey: "courses.cards.4.desc",
     color: "#0D2B1F",
   },
   {
     level: "Master",
-    badge: "Master",
+    badgeKey: "courses.levels.master",
     title: "Jali Thuluth",
     subtitle: "The Art of Monumental Script",
     duration: "16 weeks",
     sessions: "3x per week",
     lang: "Arabic",
-    desc: "The pinnacle of Arabic calligraphy. Jali Thuluth is used for monumental inscriptions on mosques and palaces. Reserved for dedicated students.",
+    descKey: "courses.cards.5.desc",
     color: "#7A4A00",
   },
 ];
 
-const LEVELS = ["Barchasi", "Beginner", "Intermediate", "Advanced", "Master"];
-
-const LEVEL_COLORS: Record<string, string> = {
-  Beginner: "#1A5C3A",
-  Intermediate: "#0D4A2F",
-  Advanced: "#0D2B1F",
-  Master: "#7A4A00",
-};
-
 export default function CoursesPage() {
-  const [activeLevel, setActiveLevel] = useState("Barchasi");
+  const { t } = useTranslation();
+  const [activeLevel, setActiveLevel] = useState("All");
+
+  const LEVELS = [
+    { key: "All", label: t("courses.filterAll") },
+    { key: "Beginner", label: t("courses.levels.beginner") },
+    { key: "Intermediate", label: t("courses.levels.intermediate") },
+    { key: "Advanced", label: t("courses.levels.advanced") },
+    { key: "Master", label: t("courses.levels.master") },
+  ];
 
   const filtered =
-    activeLevel === "Barchasi"
+    activeLevel === "All"
       ? COURSES
       : COURSES.filter((c) => c.level === activeLevel);
 
@@ -132,8 +133,6 @@ export default function CoursesPage() {
         .filter-btn.inactive:hover {
           border-color: #0D2B1F;
         }
-
-        /* Responsive grid */
         .courses-grid {
           display: grid;
           grid-template-columns: repeat(3, 1fr);
@@ -144,7 +143,7 @@ export default function CoursesPage() {
         }
         @media (max-width: 640px) {
           .courses-grid { grid-template-columns: 1fr; }
-          .hero-title { font-size: 38px !important; }
+          .courses-hero-title { font-size: 38px !important; }
           .filter-row { flex-wrap: wrap !important; gap: 8px !important; }
           .page-padding { padding: 0 16px !important; }
         }
@@ -168,7 +167,7 @@ export default function CoursesPage() {
             margin: "0 0 16px",
           }}
         >
-          CENTER OF ISLAMIC CIVILIZATION
+          {t("courses.badge")}
         </p>
 
         <div style={{ display: "flex", alignItems: "center", justifyContent: "center", gap: 10, marginBottom: 18 }}>
@@ -178,16 +177,11 @@ export default function CoursesPage() {
         </div>
 
         <h1
-          className="hero-title"
-          style={{
-            color: "#FFFFFF",
-            fontSize: 58,
-            fontWeight: 300,
-            margin: "0 0 14px",
-            lineHeight: 1.1,
-          }}
+          className="courses-hero-title"
+          style={{ color: "#FFFFFF", fontSize: 58, fontWeight: 300, margin: "0 0 14px", lineHeight: 1.1 }}
         >
-          Our <em style={{ color: "#C9A84C", fontStyle: "italic" }}>Courses</em>
+          {t("courses.titleStart")}{" "}
+          <em style={{ color: "#C9A84C", fontStyle: "italic" }}>{t("courses.titleItalic")}</em>
         </h1>
 
         <p
@@ -201,7 +195,7 @@ export default function CoursesPage() {
             lineHeight: 1.7,
           }}
         >
-          From the first stroke to monumental inscription — find the course that matches your journey.
+          {t("courses.description")}
         </p>
       </div>
 
@@ -218,11 +212,11 @@ export default function CoursesPage() {
         <div className="filter-row" style={{ display: "flex", gap: 10 }}>
           {LEVELS.map((level) => (
             <button
-              key={level}
-              onClick={() => setActiveLevel(level)}
-              className={`filter-btn ${activeLevel === level ? "active" : "inactive"}`}
+              key={level.key}
+              onClick={() => setActiveLevel(level.key)}
+              className={`filter-btn ${activeLevel === level.key ? "active" : "inactive"}`}
             >
-              {level}
+              {level.label}
             </button>
           ))}
         </div>
@@ -240,14 +234,8 @@ export default function CoursesPage() {
               className="course-card"
               style={{ animationDelay: `${i * 0.07}s` }}
             >
-              {/* Card top — dark */}
-              <div
-                style={{
-                  background: course.color,
-                  padding: "28px 28px 24px",
-                }}
-              >
-                {/* Badge */}
+              {/* Card top */}
+              <div style={{ background: course.color, padding: "28px 28px 24px" }}>
                 <span
                   style={{
                     display: "inline-block",
@@ -262,18 +250,9 @@ export default function CoursesPage() {
                     marginBottom: 16,
                   }}
                 >
-                  {course.badge.toUpperCase()}
+                  {t(course.badgeKey).toUpperCase()}
                 </span>
-
-                <h2
-                  style={{
-                    color: "#FFFFFF",
-                    fontSize: 26,
-                    fontWeight: 400,
-                    margin: "0 0 4px",
-                    lineHeight: 1.2,
-                  }}
-                >
+                <h2 style={{ color: "#FFFFFF", fontSize: 26, fontWeight: 400, margin: "0 0 4px", lineHeight: 1.2 }}>
                   {course.title}
                 </h2>
                 <p
@@ -291,7 +270,7 @@ export default function CoursesPage() {
                 </p>
               </div>
 
-              {/* Card bottom — light */}
+              {/* Card bottom */}
               <div
                 style={{
                   background: "#FFFFFF",
@@ -310,10 +289,9 @@ export default function CoursesPage() {
                     margin: "0 0 20px",
                   }}
                 >
-                  {course.desc}
+                  {t(course.descKey)}
                 </p>
 
-                {/* Meta info */}
                 <div
                   style={{
                     display: "flex",
@@ -325,14 +303,11 @@ export default function CoursesPage() {
                   }}
                 >
                   {[
-                    { label: "Davomiyligi", value: course.duration },
-                    { label: "Darslar", value: course.sessions },
-                    { label: "Til", value: course.lang },
+                    { label: t("courses.duration"), value: course.duration },
+                    { label: t("courses.sessions"), value: course.sessions },
+                    { label: t("courses.language"), value: course.lang },
                   ].map((item) => (
-                    <div
-                      key={item.label}
-                      style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}
-                    >
+                    <div key={item.label} style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                       <span
                         style={{
                           fontFamily: "'Montserrat', sans-serif",
@@ -345,21 +320,13 @@ export default function CoursesPage() {
                       >
                         {item.label}
                       </span>
-                      <span
-                        style={{
-                          fontFamily: "'Montserrat', sans-serif",
-                          fontSize: 12,
-                          color: "#333",
-                          fontWeight: 500,
-                        }}
-                      >
+                      <span style={{ fontFamily: "'Montserrat', sans-serif", fontSize: 12, color: "#333", fontWeight: 500 }}>
                         {item.value}
                       </span>
                     </div>
                   ))}
                 </div>
 
-                {/* Enroll button */}
                 <button
                   style={{
                     width: "100%",
@@ -373,39 +340,33 @@ export default function CoursesPage() {
                     letterSpacing: "0.18em",
                     textTransform: "uppercase",
                     cursor: "pointer",
-                    transition: "background 0.2s ease",
+                    transition: "background 0.2s ease, color 0.2s ease",
                   }}
-                  onMouseEnter={(e) => (e.currentTarget.style.background = "#C9A84C") && (e.currentTarget.style.color = "#0D2B1F")}
-                  onMouseLeave={(e) => (e.currentTarget.style.background = "#0D2B1F") && (e.currentTarget.style.color = "#C9A84C")}
+                  onMouseEnter={(e) => { e.currentTarget.style.background = "#C9A84C"; e.currentTarget.style.color = "#0D2B1F"; }}
+                  onMouseLeave={(e) => { e.currentTarget.style.background = "#0D2B1F"; e.currentTarget.style.color = "#C9A84C"; }}
                 >
-                  Ro'yxatdan o'tish →
+                  {t("courses.enroll")}
                 </button>
               </div>
             </div>
           ))}
         </div>
 
-        {/* Empty state */}
         {filtered.length === 0 && (
           <div style={{ textAlign: "center", padding: "60px 0", color: "#999", fontFamily: "'Montserrat', sans-serif" }}>
-            Hozircha bu darajada kurs yo'q.
+            {t("courses.empty")}
           </div>
         )}
       </div>
 
       {/* Bottom CTA */}
-      <div
-        style={{
-          background: "#0D2B1F",
-          padding: "60px 24px",
-          textAlign: "center",
-        }}
-      >
+      <div style={{ background: "#0D2B1F", padding: "60px 24px", textAlign: "center" }}>
         <p style={{ color: "#C9A84C", fontSize: 11, fontFamily: "'Montserrat', sans-serif", fontWeight: 600, letterSpacing: "0.3em", margin: "0 0 12px" }}>
-          SAVOLINGIZ BORMI?
+          {t("courses.ctaBadge")}
         </p>
         <h2 style={{ color: "#FFFFFF", fontSize: 36, fontWeight: 300, margin: "0 0 24px" }}>
-          Biz bilan <em style={{ color: "#C9A84C" }}>bog'laning</em>
+          {t("courses.ctaTitleStart")}{" "}
+          <em style={{ color: "#C9A84C" }}>{t("courses.ctaTitleItalic")}</em>
         </h2>
         <a
           href="/contact"
@@ -425,7 +386,7 @@ export default function CoursesPage() {
           onMouseEnter={(e) => (e.currentTarget.style.background = "#B8922A")}
           onMouseLeave={(e) => (e.currentTarget.style.background = "#C9A84C")}
         >
-          Murojaat qilish →
+          {t("courses.ctaBtn")}
         </a>
       </div>
     </div>

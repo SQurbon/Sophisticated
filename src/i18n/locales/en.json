@@ -15,7 +15,7 @@
     "btn1": "Discover Our Gallery",
     "btn2": "Learn More"
   },
-   "drawer": {
+  "drawer": {
     "badge": "ABOUT US",
     "titleStart": "Eternal Script,",
     "titleItalic": "Living Tradition",
@@ -49,9 +49,54 @@
     "sessions": "Sessions",
     "language": "Language",
     "enroll": "Enroll Now →",
+    "empty": "No courses available at this level yet.",
     "ctaBadge": "HAVE A QUESTION?",
     "ctaTitleStart": "Get in",
     "ctaTitleItalic": "Touch",
-    "ctaBtn": "Contact Us →"
+    "ctaBtn": "Contact Us →",
+    "levels": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced",
+      "master": "Master"
+    },
+    "cards": [
+      { "desc": "The most widely used script in the Arab world. Learn the foundational letterforms, proportions, and ink techniques used by scribes for centuries." },
+      { "desc": "One of the most majestic scripts in Islamic art. Master the sweeping curves and architectural proportions that adorn mosques and manuscripts worldwide." },
+      { "desc": "Developed in the Ottoman imperial court, Diwani is celebrated for its flowing, ornate style. A script of elegance and prestige." },
+      { "desc": "The earliest Arabic script — angular, geometric, and deeply spiritual. Study the ancient forms found in the oldest copies of the Quran." },
+      { "desc": "The everyday script of the Arab world — fast, clear, and elegant. Learn the cursive style used in daily handwriting across the Arab world." },
+      { "desc": "The pinnacle of Arabic calligraphy. Jali Thuluth is used for monumental inscriptions on mosques and palaces. Reserved for dedicated students." }
+    ]
+  },
+  
+  "about": {
+    "sectionLabel": "Our Story",
+    "pageTitle": "About The Center",
+    "established": "Est. 1989 — Abu Dhabi",
+    "titleStart": "A Living Archive of",
+    "titleItalic": "Sacred Script",
+    "p1": "Founded under the patronage of the Center of Islamic Civilization in 1989, our Calligraphy Center stands as one of the Arab world's foremost institutions dedicated to the study, preservation, and advancement of classical Arabic and Islamic scripts.",
+    "p2": "Over three decades, we have trained more than 4,000 students from 60 nations, maintained a living archive of over 2,000 historical manuscripts, and nurtured a faculty of internationally recognized master calligraphers.",
+    "mastersTitle": "Prominent Master Calligraphers",
+    "masters": [
+      {
+        "name": "Sheikh Hassan Al-Farsi",
+        "style": "Thuluth & Naskh — Istanbul Tradition"
+      },
+      {
+        "name": "Dr. Layla Al-Mansoori",
+        "style": "Kufic Geometric — Andalusian Style"
+      },
+      {
+        "name": "Ustad Karim Diab",
+        "style": "Diwani Jali — Cairo Academy"
+      }
+    ],
+    "ctaBtn": "Explore Our Programs",
+    "statYears": "Years of Heritage",
+    "statStudents": "Students Trained",
+    "statNations": "Nations",
+    "statManuscripts": "Manuscripts Archived"
   }
 }

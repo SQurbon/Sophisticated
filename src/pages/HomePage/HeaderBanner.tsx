@@ -7,9 +7,9 @@ interface HeaderBannerProps {
 }
 
 export default function HeaderBanner({ onLearnMore }: HeaderBannerProps) {
-  const { t, i18n } = useTranslation();
+  const { t } = useTranslation();
   return (
-    <div className="relative">
+    <div className="relative mb-110">
       <img
         className="absolute h-screen top-0 left-0 z-[-50]"
         src={banner}

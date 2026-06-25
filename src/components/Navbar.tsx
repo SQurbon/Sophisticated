@@ -9,7 +9,7 @@ export default function Navbar() {
   };
 
   return (
-    <div className="bg-[#faf9f6cc] fixed top-0 left-0 w-full bg-white shadow-md relative z-50s">
+    <div className="bg-[#faf9f6cc] fixed! z-50 top-0 left-0 w-full bg-white shadow-md relative z-50s">
       <div className="w-[1280px] m-auto py-4 flex justify-around">
         <div className="">
           <h6 className="text-[#D4AF37] text-[10px] tracking-[0.2em] uppercase font-medium leading-none font-serif">

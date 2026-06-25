@@ -5,17 +5,17 @@
     "gallery": "Galereya",
     "courses": "Kurslar",
     "contact": "Aloqa",
-    "explore": "Ko‘rish"
+    "explore": "Ko'rish"
   },
   "hero": {
-    "title": "Islom sivilizatsiyasi markazi — Abu Dabi",
+    "title": "Islom Sivilizatsiyasi Markazi — Abu Dabi",
     "subtitleStart": "San'ati",
     "subtitleItalic": "Abadiy Xattotlik",
-    "description": "Merosni asrab, kelajakni shakllantirish",
-    "btn1": "Galereyani ko‘rish",
+    "description": "Merosni Asrash, Kelajakni Shakllantirish",
+    "btn1": "Galereyani Ko'rish",
     "btn2": "Batafsil"
   },
-   "drawer": {
+  "drawer": {
     "badge": "BIZ HAQIMIZDA",
     "titleStart": "Abadiy Xat,",
     "titleItalic": "Tirik An'ana",
@@ -49,9 +49,53 @@
     "sessions": "Darslar",
     "language": "Til",
     "enroll": "Ro'yxatdan O'tish →",
+    "empty": "Hozircha bu darajada kurs yo'q.",
     "ctaBadge": "SAVOLINGIZ BORMI?",
     "ctaTitleStart": "Biz bilan",
     "ctaTitleItalic": "Bog'laning",
-    "ctaBtn": "Murojaat Qilish →"
+    "ctaBtn": "Murojaat Qilish →",
+    "levels": {
+      "beginner": "Boshlang'ich",
+      "intermediate": "O'rta",
+      "advanced": "Ilg'or",
+      "master": "Master"
+    },
+    "cards": [
+      { "desc": "Arab dunyosida eng ko'p ishlatiladigan xat. Asrlar davomida kotiblar tomonidan qo'llaniladigan asosiy harf shakllari, nisbatlar va siyoh texnikalarini o'rganing." },
+      { "desc": "Islom san'atidagi eng ulug'vor xatlardan biri. Butun dunyo bo'ylab masjid va qo'lyozmalarda bezak bo'lib turgan egri chiziqlar va me'moriy nisbatlarni o'zlashtiring." },
+      { "desc": "Usmonli saroy muhitida rivojlangan Devoniy o'zining oqimli, naqshli uslubi bilan mashhur. Nafosат va obro' xati." },
+      { "desc": "Eng qadimgi arab xati — burchakli, geometrik va chuqur ma'naviy. Qur'onning eng qadimgi nusxalarida topilgan qadimiy shakllarni o'rganing." },
+      { "desc": "Arab dunyosining kundalik xati — tez, aniq va nafis. Butun arab dunyosida kundalik yozishda qo'llaniladigan kursiv uslubini o'rganing." },
+      { "desc": "Arab xattotligining cho'qqisi. Jali Sulls masjid va saroylarning ulkan yozuvlarida qo'llaniladi. Fidoyi talabalar uchun." }
+    ]
+  },
+   "about": {
+    "sectionLabel": "Bizning Tariximiz",
+    "pageTitle": "Markaz Haqida",
+    "established": "1989-yildan — Abu Dabi",
+    "titleStart": "Muqaddas Xatning",
+    "titleItalic": "Tirik Arxivi",
+    "p1": "1989-yilda Islom Sivilizatsiyasi Markazi homiyligida tashkil etilgan Xattotlik Markazimiz arab dunyosidagi klassik arab va islom xatlarini o'rganish, saqlash va rivojlantirishga bag'ishlangan yetakchi muassasalardan biri hisoblanadi.",
+    "p2": "O'ttiz yildan ortiq davr mobaynida biz 60 mamlakatdan 4 000 dan ortiq talabani o'qitdik, 2 000 dan ortiq tarixiy qo'lyozmani o'z ichiga olgan tirik arxivni saqlab keldik va xalqaro miqyosda tan olingan ustoz xattotlar jamoasini tarbiyaladik.",
+    "mastersTitle": "Taniqli Ustoz Xattotlar",
+    "masters": [
+      {
+        "name": "Shayx Hasan Al-Forsiy",
+        "style": "Sulls va Nasх — Istanbul An'anasi"
+      },
+      {
+        "name": "Dr. Layla Al-Mansuriy",
+        "style": "Kufiy Geometrik — Andalusiya Uslubi"
+      },
+      {
+        "name": "Ustod Karim Diab",
+        "style": "Devoniy Jaliy — Qohira Akademiyasi"
+      }
+    ],
+    "ctaBtn": "Dasturlarimizni Ko'rish",
+    "statYears": "Yillik Meros",
+    "statStudents": "O'qitilgan Talabalar",
+    "statNations": "Davlat",
+    "statManuscripts": "Arxivlangan Qo'lyozmalar"
   }
 }
