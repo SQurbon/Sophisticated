@@ -6,5 +6,52 @@
     "courses": "Courses",
     "contact": "Contact",
     "explore": "Explore Now"
+  },
+  "hero": {
+    "title": "Center of Islamic Civilization — Abu Dhabi",
+    "subtitleStart": "The Art of",
+    "subtitleItalic": "Eternal Script",
+    "description": "Preserving Heritage, Shaping Future",
+    "btn1": "Discover Our Gallery",
+    "btn2": "Learn More"
+  },
+   "drawer": {
+    "badge": "ABOUT US",
+    "titleStart": "Eternal Script,",
+    "titleItalic": "Living Tradition",
+    "sections": [
+      {
+        "title": "Our Heritage",
+        "body": "Founded in the heart of Abu Dhabi, the Center of Islamic Civilization has dedicated over three decades to preserving and teaching the ancient art of Arabic calligraphy — one of Islam's most revered visual traditions."
+      },
+      {
+        "title": "The Styles We Teach",
+        "body": "From the geometric precision of Kufic to the flowing curves of Naskh, Thuluth, Diwani, and Riq'a — our master calligraphers guide students through every major script tradition."
+      },
+      {
+        "title": "Who Can Join",
+        "body": "Beginners, students, and seasoned artists are all welcome. Courses run in Arabic and English, with flexible scheduling for in-person and online learners worldwide."
+      },
+      {
+        "title": "Our Mission",
+        "body": "We believe calligraphy is not merely decoration — it is a meditative practice and a living language. Our mission: to carry this sacred script into the next generation."
+      }
+    ],
+    "cta": "View Our Courses →"
+  },
+  "courses": {
+    "badge": "CENTER OF ISLAMIC CIVILIZATION",
+    "titleStart": "Our",
+    "titleItalic": "Courses",
+    "description": "From the first stroke to monumental inscription — find the course that matches your journey.",
+    "filterAll": "All",
+    "duration": "Duration",
+    "sessions": "Sessions",
+    "language": "Language",
+    "enroll": "Enroll Now →",
+    "ctaBadge": "HAVE A QUESTION?",
+    "ctaTitleStart": "Get in",
+    "ctaTitleItalic": "Touch",
+    "ctaBtn": "Contact Us →"
   }
 }

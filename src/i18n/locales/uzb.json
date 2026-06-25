@@ -6,5 +6,52 @@
     "courses": "Kurslar",
     "contact": "Aloqa",
     "explore": "Ko‘rish"
+  },
+  "hero": {
+    "title": "Islom sivilizatsiyasi markazi — Abu Dabi",
+    "subtitleStart": "San'ati",
+    "subtitleItalic": "Abadiy Xattotlik",
+    "description": "Merosni asrab, kelajakni shakllantirish",
+    "btn1": "Galereyani ko‘rish",
+    "btn2": "Batafsil"
+  },
+   "drawer": {
+    "badge": "BIZ HAQIMIZDA",
+    "titleStart": "Abadiy Xat,",
+    "titleItalic": "Tirik An'ana",
+    "sections": [
+      {
+        "title": "Merosimiz",
+        "body": "Abu Dabining qalbida tashkil etilgan Islom Sivilizatsiyasi Markazi otuz yildan ortiq vaqt davomida arab xattotligi san'atini — Islomning eng muqaddas vizual an'analaridan birini — saqlab va o'rgatib kelmoqda."
+      },
+      {
+        "title": "Biz O'rgatadigаn Uslublar",
+        "body": "Kufiyning geometrik aniqligigidan Nasх, Sulls, Devoniy va Riq'aning oqayotgan egri chiziqlarigacha — ustoz xattotlarimiz har bir asosiy xat an'anasida talabalarni yo'lga soladi."
+      },
+      {
+        "title": "Kim Qo'shila Oladi",
+        "body": "Boshlang'ichlar, talabalar va tajribali rassomlar — barchasi xush kelibdi. Kurslar arabcha va ingliz tilida o'tiladi, butun dunyo bo'ylab kunduzgi va onlayn o'quvchilar uchun moslashuvchan jadval bilan."
+      },
+      {
+        "title": "Bizning Missiyamiz",
+        "body": "Biz xattotlik shunchaki bezak emas — bu meditativ amaliyot va tirik tildir deb ishonamiz. Bizning vazifamiz: bu muqaddas yozuvni keyingi avlodga yetkazish."
+      }
+    ],
+    "cta": "Kurslarni Ko'rish →"
+  },
+  "courses": {
+    "badge": "ISLOM SIVILIZATSIYASI MARKAZI",
+    "titleStart": "Bizning",
+    "titleItalic": "Kurslarimiz",
+    "description": "Birinchi zarbadan ulkan yozuvgacha — o'z safaringizga mos kursni toping.",
+    "filterAll": "Barchasi",
+    "duration": "Davomiyligi",
+    "sessions": "Darslar",
+    "language": "Til",
+    "enroll": "Ro'yxatdan O'tish →",
+    "ctaBadge": "SAVOLINGIZ BORMI?",
+    "ctaTitleStart": "Biz bilan",
+    "ctaTitleItalic": "Bog'laning",
+    "ctaBtn": "Murojaat Qilish →"
   }
 }
