@@ -98,5 +98,19 @@
     "statStudents": "Students Trained",
     "statNations": "Nations",
     "statManuscripts": "Manuscripts Archived"
+  },
+   "contact": {
+    "title": "Get In Touch",
+    "subtitle": "Contact the Center",
+    "addressTitle": "Address",
+    "address": "Center of Islamic Civilization\nSaadiyat Island, Abu Dhabi, UAE",
+    "phoneTitle": "Phone",
+    "emailTitle": "Email",
+    "newsletterTitle": "Newsletter & Enquiries",
+    "newsletterSubtitle": "Stay Connected with Our Heritage",
+    "fullName": "Full Name",
+    "email": "Email Address",
+    "message": "Message",
+    "send": "Send Message"
   }
 }

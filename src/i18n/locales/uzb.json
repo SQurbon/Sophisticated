@@ -97,5 +97,19 @@
     "statStudents": "O'qitilgan Talabalar",
     "statNations": "Davlat",
     "statManuscripts": "Arxivlangan Qo'lyozmalar"
+  },
+    "contact": {
+    "title": "Bog‘lanish",
+    "subtitle": "Markaz bilan bog‘laning",
+    "addressTitle": "Manzil",
+    "address": "Islom Sivilizatsiyasi Markazi\nSaadiyat oroli, Abu-Dabi, BAA",
+    "phoneTitle": "Telefon",
+    "emailTitle": "Elektron pochta",
+    "newsletterTitle": "Yangiliklar va Murojaatlar",
+    "newsletterSubtitle": "Merosimiz bilan bog‘lanib turing",
+    "fullName": "To‘liq ism",
+    "email": "Elektron pochta manzili",
+    "message": "Xabar",
+    "send": "Xabar yuborish"
   }
 }
