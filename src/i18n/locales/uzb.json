@@ -111,5 +111,11 @@
     "email": "Elektron pochta manzili",
     "message": "Xabar",
     "send": "Xabar yuborish"
+  },
+   "gallery": {
+    "title": "To‘plam",
+    "subtitle": "Virtual Galereya",
+    "description": "Doimiy kolleksiyamiz va bitiruvchilar ko‘rgazmalaridan saralangan, arab xattotligining sakkizta klassik uslubini o‘z ichiga olgan nodir asarlar to‘plami.",
+    "button": "To‘liq To‘plamni Ko‘rish"
   }
 }

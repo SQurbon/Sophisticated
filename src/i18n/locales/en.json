@@ -112,5 +112,11 @@
     "email": "Email Address",
     "message": "Message",
     "send": "Send Message"
+  },
+   "gallery": {
+    "title": "The Collection",
+    "subtitle": "Virtual Gallery",
+    "description": "A curated selection of masterworks spanning eight classical Arabic scripts, drawn from our permanent collection and alumni exhibitions.",
+    "button": "View Full Collection"
   }
 }
