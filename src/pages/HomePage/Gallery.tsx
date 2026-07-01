@@ -1,5 +1,4 @@
 import { products } from "@/components/GalleryCollections";
-import React, { useTransition } from "react";
 import { useTranslation } from "react-i18next";
 
 export default function Gallery() {
@@ -35,7 +34,7 @@ export default function Gallery() {
           </div>
         ))}
       </div>
-        <button className="px-10 py-4 border flex m-auto justify-center   border-[#005F40] text-[#005F40] text-sm font-semibold tracking-widest uppercase hover:bg-[#005F40] hover:text-white transition-all duration-300">{t("gallery.button")}</button>
+        <button className="px-10 py-4 border flex m-auto justify-center mt-10  border-[#005F40] text-[#005F40] text-sm font-semibold tracking-widest uppercase hover:bg-[#005F40] hover:text-white transition-all duration-300">{t("gallery.button")}</button>
     </div>
   );
 }

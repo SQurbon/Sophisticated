@@ -1,5 +1,5 @@
 import { FaArrowRightLong } from "react-icons/fa6";
-import banner from "../../assets/imgs/Снимок экрана 2026-06-23 152209.png";
+import banner from "../../assets/imgs/Снимок экрана 2026-06-23 152209.webp";
 import { useTranslation } from "react-i18next";
 
 interface HeaderBannerProps {

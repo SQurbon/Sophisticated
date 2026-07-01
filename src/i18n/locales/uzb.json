@@ -106,7 +106,7 @@
     "phoneTitle": "Telefon",
     "emailTitle": "Elektron pochta",
     "newsletterTitle": "Yangiliklar va Murojaatlar",
-    "newsletterSubtitle": "Merosimiz bilan bog‘lanib turing",
+    "newsletterSubtitle": "Hodimimiz bilan bog‘lanib turing",
     "fullName": "To‘liq ism",
     "email": "Elektron pochta manzili",
     "message": "Xabar",
@@ -117,5 +117,54 @@
     "subtitle": "Virtual Galereya",
     "description": "Doimiy kolleksiyamiz va bitiruvchilar ko‘rgazmalaridan saralangan, arab xattotligining sakkizta klassik uslubini o‘z ichiga olgan nodir asarlar to‘plami.",
     "button": "To‘liq To‘plamni Ko‘rish"
+  },
+  "education": {
+    "title": "Bugunoq Ro‘yxatdan O‘ting",
+    "subtitle": "Ta'lim Dasturlari",
+    "description": "Ustoz xattotlar tomonidan ishlab chiqilgan bosqichma-bosqich o‘quv dasturlari — ilk chiziqlardan ko‘rgazma darajasidagi mahoratgacha.",
+
+    "beginner": {
+      "level": "Boshlang‘ich",
+      "title": "Xat Asoslari",
+      "description": "Arab xattotligining asosiy chiziqlari, asboblari va mutanosiblik qoidalarini o‘rganing. Tajribasi bo‘lmaganlar uchun ideal.",
+      "duration": "12 Hafta",
+      "schedule": "Shanba 10:00–13:00",
+      "feature1": "Qamish qalam va siyoh to‘plami kiritilgan",
+      "feature2": "Raqamli mashq varaqalari",
+      "feature3": "Tugatgandan so‘ng sertifikat",
+      "fee": "Dastur Narxi",
+      "price": "AED 2,400",
+      "button": "Ro‘yxatdan O‘tish"
+    },
+
+    "intermediate": {
+      "badge": "Eng Ommabop",
+      "level": "O‘rta Daraja",
+      "title": "Nasx va Suls Mahorati",
+      "description": "Murakkab kompozitsiyalar va tarixiy qo‘lyozmalar orqali eng muhim ikki klassik yozuv uslubini chuqur o‘rganing.",
+      "duration": "16 Hafta",
+      "schedule": "Chorshanba 18:00–21:00",
+      "feature1": "Premium xattotlik to‘plami",
+      "feature2": "Yakka tartibdagi fikr-mulohaza sessiyalari",
+      "feature3": "Portfolio yaratish",
+      "fee": "Dastur Narxi",
+      "price": "AED 3,800",
+      "button": "Ro‘yxatdan O‘tish"
+    },
+
+    "masterclass": {
+      "level": "Master-klass",
+      "title": "Naqsh va Bezatish San'ati",
+      "description": "Istanbul va Qohira ustozlari boshchiligida xattotlik va an'anaviy islomiy bezak san'atini birlashtiruvchi intensiv dastur.",
+      "duration": "20 Hafta",
+      "schedule": "Juma 09:00–14:00",
+      "feature1": "Noyob pigment va oltin yaproq to‘plami",
+      "feature2": "Xalqaro mehmon ustozlar",
+      "feature3": "Yakuniy ko‘rgazma namoyishi",
+      "fee": "Dastur Narxi",
+      "price": "AED 6,200",
+      "button": "Ro‘yxatdan O‘tish"
+    }
   }
+
 }

@@ -4,12 +4,12 @@ export interface Product {
   title: string;
   span: string
 }
-import image1 from '../assets/imgs/gallerycollectionID1.avif'
-import image2 from '../assets/imgs/gallerycollectionID2.avif'
-import image3 from '../assets/imgs/gallerycollectionID3.avif'
-import image4 from '../assets/imgs/gallerycollectionID4.avif'
-import image5 from '../assets/imgs/gallerycollectionID5.avif'
-import image6 from '../assets/imgs/gallerycollectionID6.avif'
+import image1 from '../assets/imgs/gallerycollectionID1.webp'
+import image2 from '../assets/imgs/gallerycollectionID2.webp'
+import image3 from '../assets/imgs/gallerycollectionID3.webp'
+import image4 from '../assets/imgs/gallerycollectionID4.webp'
+import image5 from '../assets/imgs/gallerycollectionID5.webp'
+import image6 from '../assets/imgs/gallerycollectionID6.webp'
 
 export const products: Product[] = [
   {

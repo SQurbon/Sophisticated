@@ -107,7 +107,7 @@
     "phoneTitle": "Phone",
     "emailTitle": "Email",
     "newsletterTitle": "Newsletter & Enquiries",
-    "newsletterSubtitle": "Stay Connected with Our Heritage",
+    "newsletterSubtitle": "Stay Connected with Our employees",
     "fullName": "Full Name",
     "email": "Email Address",
     "message": "Message",
@@ -118,5 +118,55 @@
     "subtitle": "Virtual Gallery",
     "description": "A curated selection of masterworks spanning eight classical Arabic scripts, drawn from our permanent collection and alumni exhibitions.",
     "button": "View Full Collection"
+  },
+  
+  "education": {
+    "title": "Enroll Today",
+    "subtitle": "Educational Programs",
+    "description": "Structured learning paths designed by master calligraphers — from first strokes to exhibition-ready mastery.",
+
+    "beginner": {
+      "level": "Beginner",
+      "title": "Foundation of Script",
+      "description": "Master the foundational strokes, tools, and proportions of classical Arabic letterforms. Perfect for those with no prior experience.",
+      "duration": "12 Weeks",
+      "schedule": "Saturdays 10:00–13:00",
+      "feature1": "Reed pen & ink kit included",
+      "feature2": "Digital practice sheets",
+      "feature3": "Certificate upon completion",
+      "fee": "Program Fee",
+      "price": "AED 2,400",
+      "button": "Register Now"
+    },
+
+    "intermediate": {
+      "badge": "Most Popular",
+      "level": "Intermediate",
+      "title": "Naskh & Thuluth Mastery",
+      "description": "Deepen your command of the two most important classical scripts with advanced compositions and historical manuscript studies.",
+      "duration": "16 Weeks",
+      "schedule": "Wednesdays 18:00–21:00",
+      "feature1": "Premium calligraphy set",
+      "feature2": "One-on-one feedback sessions",
+      "feature3": "Portfolio development",
+      "fee": "Program Fee",
+      "price": "AED 3,800",
+      "button": "Register Now"
+    },
+
+    "masterclass": {
+      "level": "Masterclass",
+      "title": "The Art of Illumination",
+      "description": "An intensive program combining calligraphy with traditional Islamic illumination, led by award-winning masters from Istanbul and Cairo.",
+      "duration": "20 Weeks",
+      "schedule": "Fridays 09:00–14:00",
+      "feature1": "Rare pigment & gold leaf kit",
+      "feature2": "International guest masters",
+      "feature3": "Final exhibition showcase",
+      "fee": "Program Fee",
+      "price": "AED 6,200",
+      "button": "Register Now"
+    }
   }
+
 }
