@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import { useTranslation } from "react-i18next";
 import { HiMenuAlt3, HiX } from "react-icons/hi";
 
+
+import flag1 from "../assets/imgs/circle.png";
 export default function Navbar() {
   const { t, i18n } = useTranslation();
   const [isOpen, setIsOpen] = useState(false);
@@ -81,7 +83,9 @@ export default function Navbar() {
               defaultValue={i18n.language}
               className="border border-[#D4AF37]/20 bg-white px-3 py-2 rounded-md text-sm outline-none focus:border-[#D4AF37]"
             >
-              <option value="uz">UZ</option>
+              <option value="uz">
+                Uz
+              </option>
               <option value="ru">RU</option>
               <option value="en">EN</option>
             </select>

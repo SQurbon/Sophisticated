@@ -138,7 +138,7 @@ export default function Footer() {
 
           <h5 className="text-center text-sm text-white/70 max-w-lg">
             © 2024 Center of Islamic Civilization — Abu Dhabi. All rights
-            reserved.
+            reserved. 
           </h5>
 
           <div className="flex items-center gap-2">
