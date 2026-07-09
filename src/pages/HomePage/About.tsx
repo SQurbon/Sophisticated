@@ -63,6 +63,7 @@ export default function About() {
 
           <div className="w-20 h-0.5 bg-[#d4af37]"></div>
 
+
           <p className="text-[#4A5568] leading-relaxed mt-4 text-[15px]">
             {t("about.p1")}
           </p>
